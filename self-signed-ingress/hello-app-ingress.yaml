@@ -1,0 +1,22 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: hello-app-ingress
+  namespace: trial
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - kubernetes.docker.internal
+    secretName: hello-app-tlss3
+  rules:
+  - host: "kubernetes.docker.internal"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: hello-service
+            port:
+              number: 80

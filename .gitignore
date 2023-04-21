@@ -1,3 +1,4 @@
 certs/tls.crt
 certs/tls.key
+cert*/*
 trash/*

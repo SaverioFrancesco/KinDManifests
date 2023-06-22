@@ -1,5 +1,12 @@
 
 # TODO
+Cert Manager
+* https://medium.com/avmconsulting-blog/encrypting-the-certificate-for-kubernetes-lets-encrypt-805d2bf88b2a
+SQL Server Cluster
+* https://artifacthub.io/packages/helm/cloudnativeapp/mssql-linux
+* https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-containers-deploy-helm-charts-kubernetes?view=sql-server-ver16
+
+
 * https://devopscube.com/configure-ingress-tls-kubernetes/
 * https://github.com/donnemartin/system-design-primer#load-balancer
 * https://gist.github.com/developer-guy/173347e71f92a61abbc017deb518b6cb

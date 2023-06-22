@@ -1,8 +1,10 @@
 
 # TODO
-Cert Manager
+### Cert Manager
 * https://medium.com/avmconsulting-blog/encrypting-the-certificate-for-kubernetes-lets-encrypt-805d2bf88b2a
-SQL Server Cluster
+
+
+### SQL Server Cluster
 * https://artifacthub.io/packages/helm/cloudnativeapp/mssql-linux
 * https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-containers-deploy-helm-charts-kubernetes?view=sql-server-ver16
 
